@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarrosApi/View/DetalhesViewController.swift"
+            timestampString = "555295428.961193"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarrosApi/models/Carros.swift"
+            timestampString = "559020539.9512351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "Carros"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarrosApi.Carros.carro.getter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;CarrosApi.Carro&gt;&gt;"
+                  moduleName = "CarrosApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brilho/Documents/Projetos/CarrosApiBD/CarrosApi/models/Carros.swift"
+                  timestampString = "559020991.669759"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarrosApi.Carros.carro.setter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;CarrosApi.Carro&gt;&gt;"
+                  moduleName = "CarrosApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brilho/Documents/Projetos/CarrosApiBD/CarrosApi/models/Carros.swift"
+                  timestampString = "559020991.673589"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarrosApi.Carros.init() -&gt; CarrosApi.Carros"
+                  moduleName = "CarrosApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brilho/Documents/Projetos/CarrosApiBD/CarrosApi/models/Carros.swift"
+                  timestampString = "559020991.6761529"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarrosApi/Networking/ApiCarrros.swift"
+            timestampString = "559021529.9090151"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "getCarros(refresh:tipoCarro:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
