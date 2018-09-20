@@ -29,12 +29,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         //register da celula customizada para exibir o carro
         tbvCarros.register(UINib(nibName: "CarroTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
-                getCarros()
+
+        //cria um bd com o tipo carro Esporitvos - "nome do carro"
         let carrosBD = ApiCarrros.realm.objects(Carro.self).filter("tipoCarro = %@", "Esportivos")
+        //se o BD tiver vazio chama a API
             if carrosBD.isEmpty {
                // call func api
                 getCarros()
             } else {
+                //se nao abre o BD
                 for carroBD in carrosBD {
                     carros.append(carroBD)
                 }
@@ -125,7 +128,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         do {
             ApiCarrros.realm.beginWrite()
             ApiCarrros.realm.delete(carrosBD)
-            try ApiCarrros.realm.beginWrite()
+            try ApiCarrros.realm.commitWrite()
             ApiCarrros.getCarros(refresh:true, tipoCarro: tipoCarro) { (carros) in
                 self.carros = carros
                 DispatchQueue.main.async {

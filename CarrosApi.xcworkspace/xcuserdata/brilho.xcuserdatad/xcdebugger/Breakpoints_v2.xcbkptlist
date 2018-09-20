@@ -42,7 +42,7 @@
                   moduleName = "CarrosApi"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/brilho/Documents/Projetos/CarrosApiBD/CarrosApi/models/Carros.swift"
-                  timestampString = "559020991.669759"
+                  timestampString = "559022299.532915"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -57,7 +57,7 @@
                   moduleName = "CarrosApi"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/brilho/Documents/Projetos/CarrosApiBD/CarrosApi/models/Carros.swift"
-                  timestampString = "559020991.673589"
+                  timestampString = "559022299.535632"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -72,7 +72,7 @@
                   moduleName = "CarrosApi"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/brilho/Documents/Projetos/CarrosApiBD/CarrosApi/models/Carros.swift"
-                  timestampString = "559020991.6761529"
+                  timestampString = "559022299.537256"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -89,13 +89,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarrosApi/Networking/ApiCarrros.swift"
-            timestampString = "559021529.9090151"
+            timestampString = "559095235.173318"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
             endingLineNumber = "18"
-            landmarkName = "getCarros(refresh:tipoCarro:completion:)"
-            landmarkType = "7">
+            landmarkName = "ApiCarrros"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
